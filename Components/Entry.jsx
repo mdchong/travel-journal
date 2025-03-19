@@ -4,8 +4,8 @@ export default function Entry(props) {
             <section className="card">
                 <div className="left-content">
                     <img 
-                        src={props.img.src} 
-                        alt={props.img.alt} />
+                        alt={props.img.alt} 
+                        src={props.img.src} />
                 </div>
 
                 <div className="right-content">
